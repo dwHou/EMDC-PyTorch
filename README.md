@@ -16,6 +16,9 @@ Optional
 * tqdm 
 * tensorboardX
 
+## Pre-trained models
+Download the pretrained models from [Google Drive]()
+
 ## Quickstart
 
 ### training
