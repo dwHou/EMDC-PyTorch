@@ -41,6 +41,8 @@ Download the pretrained models from [Google Drive](https://drive.google.com/file
 
 1. **Step1:**
 
+   download the official [test data](https://drive.google.com/file/d/13hdstLpsp8uMfkwYYCmlJwKd-a4Ed719/view) and put it in <font color="blue">*./Submit*</font>
+
    download the pretrained model and put it in <font color="blue">*./checkpoints*</font>
 
 2. **Step2:**
