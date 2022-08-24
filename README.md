@@ -27,7 +27,7 @@ Download the pretrained models from [Google Drive](https://drive.google.com/file
 
 2. **Step 2:**
 
-   - **Train set:** Record the path of the data pair to a text file and assign the file location to the variable <font color="brown">*'train_txt'*</font>  in /utils/dataset.py. Also, modify the data directory path in the member function <font color="brown">*'self._load_png'*</font>.
+   - **Train set:** Record the path of the data pairs to a text file and assign the file location to the variable <font color="brown">*'train_txt'*</font>  in  <font color="brown">*./utils/dataset.py*</font>. Also, modify the data directory path in the member function <font color="brown">*'self._load_png'*</font>.
    - **Val set:** Processing is similar to the above.
    - **Note that** the folder for the <font color="brown">*'BeachApartmentInterior_My_ir'*</font> scene is removed from the training set, as it is partitioned into the fixed validation set.
 
@@ -41,7 +41,7 @@ Download the pretrained models from [Google Drive](https://drive.google.com/file
 
 1. **Step1:**
 
-download the pretrained model from [Google Drive](Divide training set and validation set), and put it in <font color="blue">*./checkpoints*</font>
+download the pretrained model and put it in <font color="blue">*./checkpoints*</font>
 
 2. **Step2:**
 
