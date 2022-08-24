@@ -41,16 +41,16 @@ Download the pretrained models from [Google Drive](https://drive.google.com/file
 
 1. **Step1:**
 
-download the pretrained model and put it in <font color="blue">*./checkpoints*</font>
+   download the pretrained model and put it in <font color="blue">*./checkpoints*</font>
 
 2. **Step2:**
 
-```shell
-cd ./Submit
-cp ../utils/define_model.py ./
-cp -R ../models ./
-bash test.sh 
-```
+   ```shell
+   cd ./Submit
+   cp ../utils/define_model.py ./
+   cp -R ../models ./
+   bash test.sh 
+   ```
 
 3. **Step 3:** Check the results under the path <font color="brown">*./Submit/results*</font>
 
