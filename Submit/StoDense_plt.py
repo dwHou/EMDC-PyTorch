@@ -125,9 +125,19 @@ def visual(args):
             cost_time += end - begin 
             output = output[0, 0, :, :].cpu().numpy().astype(np.float32)
 
+            '''
             # output dense depth image
             exr_name = depsp_path.split('/')[-1]
             output_path = os.path.join('results', f'{args.out_path}', exr_name)
+            cv2.imwrite(output_path, output)
+            '''
+            
+            # output dense depth image
+            exr_dir = depsp_path.split('/')[-2]
+            exr_name = depsp_path.split('/')[-1]
+            if not os.path.exists(os.path.join('results', f'{args.out_path}', exr_dir)):
+                os.system(f"mkdir {os.path.join('results', f'{args.out_path}', exr_dir)}")
+            output_path = os.path.join('results', f'{args.out_path}', exr_dir, exr_name)
             cv2.imwrite(output_path, output)
             
             if args.visualization:
