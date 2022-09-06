@@ -27,7 +27,7 @@ def plt_visualize(rgb, depth, depsp, jet_path):
     x_sp, y_sp = np.where(spot_depth>0)
     d_sp = spot_depth[x_sp, y_sp]
 
-    title_names = ['RGB', 'GT', 'spot depth']
+    title_names = ['RGB', 'EMDC', 'spot depth']
     fig = plt.figure(figsize=(14,4))
     axs = ImageGrid(fig, 111,
                     nrows_ncols = (1,3),
