@@ -1,6 +1,6 @@
 [![forthebadge](https://img.shields.io/badge/PyTorch-1.10.1-orange.svg)](https://forthebadge.com)
 
-Winning Solution in MIPI2022 Challenges on RGB+ToF Depth Completion
+Winning Solution in [MIPI2022](https://mipi-challenge.org/#awards) Challenges on RGB+ToF Depth Completion
 
 ## Requirements  
 Required 
