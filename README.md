@@ -63,9 +63,10 @@ If you find our codes useful for your research, please consider citing our paper
 [1] Dewang Hou, Yuanyuan Du, Kai Zhao, and Yang Zhao, **"Learning an Efficient Multimodal Depth Completion Model",** <i>1st MIPI: Mobile Intelligent Photography & Imaging workshop and challenge on RGB+ToF depth completion in conjunction with **ECCV 2022**. </i> [[PDF]()] [[arXiv](https://arxiv.org/abs/2208.10771)]
 
 ```bibtex
-@article{xx,
-    author = {xx},
-    title = {xx},
+@InProceedings{sun2022mipidc,
+    title = {Learning an Efficient Multimodal Depth Completion Model},
+    author = {Dewang Hou, Yuanyuan Du, Kai Zhao and Yang Zhao},
+    booktitle = {ECCV Workshop},
     year = {2022}
 }
 ```
